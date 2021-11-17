@@ -12,7 +12,7 @@ const MainRoutes: FC = () => (
 			<Route
 				index
 				element={
-					<Flex flexDir="column">
+					<Flex flexDir="column" flexGrow="1">
 						<SearchBar />
 						<SearchResults />
 					</Flex>
